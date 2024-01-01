@@ -24,8 +24,8 @@ h1 {
 }
 
 .block {
-  color: yellow;
-  font-size: 1.5rem;
+  color: rgb(0, 170, 255);
+  font-size: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,10 +33,73 @@ h1 {
 }
 
 .result {
-  margin-top: 10px;
+  margin-top: 2rem;
   padding: 10px;
   border: 4px solid rgb(116, 116, 189);
   color: currentColor;
   font-size: 2rem;
   text-align: center;
+  color: rgb(0, 170, 255);;
+}
+
+.reset-btn {
+  margin-top: 2rem;
+  padding: 10px;
+  border: 4px solid rgb(116, 116, 189);
+  color: currentColor;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 2rem;
+  background-image: linear-gradient(rgb(80, 80, 177), rgb(235, 85, 110));
+}
+
+.strike {
+  position: absolute;
+  background-color: rgb(255, 165, 55);
+}
+
+.strike-row-1 {
+  width: 100%;
+  height: 4px;
+  top: 16%;
+}
+.strike-row-2 {
+  width: 100%;
+  height: 4px;
+  top: 50%;
+}
+.strike-row-3 {
+  width: 100%;
+  height: 4px;
+  top: 83%;
+}
+.strike-column-1 {
+  height: 100%;
+  width: 4px;
+  left: 16%;
+}
+.strike-column-2 {
+  height: 100%;
+  width: 4px;
+  left: 50%;
+}
+.strike-column-3 {
+  height: 100%;
+  width: 4px;
+  left: 83%;
+}
+.strike-diagonal-1 {
+  width: 90%;
+  height: 4px;
+  top: 50%;
+  left: 5%;
+  transform: skewY(45deg);
+}
+.strike-diagonal-2 {
+  width: 90%;
+  height: 4px;
+  top: 50%;
+  left: 5%;
+  transform: skewY(-45deg);
 }
