@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const Block = () => {
+export const Block = ({value, onBlockClick}) => {
   return (
-    <div className='block'>Block</div>
+    <div className='block' onClick={onBlockClick}>{value}</div>
   )
 }
